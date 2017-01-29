@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ri</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../style/vendors/materialize.min.css" rel="stylesheet">
+    <link href="../style/css/main.css" rel="stylesheet">
+</head>
+<body class="fondo">
+	<div class="container-fluid">
+		<div class="imagen_mapa"></div>
+	</div>
+		<ul id="slide-out" class="side-nav">
+			<!-- <img src="../images/icons/close-circular-button-of-a-cross.png" class="cross_icon"> -->
+			<a href="edit.html" class="right-align">Edit Profile</a>
+    		<img class="circle user"  src="../images/icons/user-3.png">
+		    <li >
+		      	<div >
+		        	<p id="nombre_usuario" class="center-align">NOMBRE</p><hr>
+		      	</div>
+		    </li>
+		    <li><a href="#!"><i  class="small material-icons">person_pin</i>Notifications</a></li>
+		    <li><a href="#!"><i  class="small material-icons">dashboard</i>Traveller advice of this place</a></li>
+		    <li><a href="#!" "><i  class="small material-icons">my_location</i>Lets move !</a></li>
+		    <li><a href="#!" "><i  class="small material-icons">live_help</i>Help</a></li>
+		    <li><a href="#!" "><img src="../images/icons/dollar-coin-money.png" class="coin" >Coins</a></li>
+		    <div class="switch">
+			    <label>
+			      Driver
+			      <input type="checkbox">
+			      <span class="lever"></span>
+			      Rider
+			    </label>
+			 </div>
+		</ul>
+ 		<a  href="#" data-activates="slide-out" class="btn-floating btn-large red button-collapse" id="menu_button">
+     		<i class="material-icons menu">menu</i>
+   		</a>
+   		<div class="icons_tour"><img src="../images/icons/turism/tour_icon/SVG/MONUMENTS AND TEMPLES/tourism-Icons_church.svg" class="place_width church" ></div>
+   		<div class="icons_tour"><img src="../images/icons/turism/tour_icon/SVG/MONUMENTS AND TEMPLES/Tourism-Icons_castle.svg" class="place_width castle" ></div>
+   		<div class="icons_tour">
+	    	<div id="modal_info" class=" arrow">
+		    	<div >
+		    		<div class="user_2_fondo"><img class="circle user_2"  src="../images/icons/user-3.png"></div>
+		    		 <div class="center-align">
+				      	<h5>YOUR BOARD</h5>
+				    </div>
+				    <footer>
+				    	<a class="waves-effect waves-teal btn-flat">Info</a>
+				    	<a class="waves-effect waves-teal btn-flat">Chat</a>
+				    </footer>
+		   		</div>
+		    </div>
+			<a href="#modal_info"><img src="../images/icons/call.svg" class="main_icon_width main_icon_move_person" ></a>
+   		</div>
+   		<div class="icons_tour">
+   			<div id="modal_info_car" class=" arrow">
+		    	<div >
+		    	    <div class="user_2_fondo"><img class="circle user_2"  src="../images/icons/user-3.png"></div>
+		    	    <div class="center-align">
+				      	<h5>YOUR BOARD</h5>
+				    </div>
+				    <footer>
+				    	<a class="waves-effect waves-teal btn-flat">Info</a>
+				    	<a class="waves-effect waves-teal btn-flat">Chat</a>
+				    </footer>
+		   		</div>
+		    </div>
+   			<a href="#modal_info_car"><img src="../images/icons/smart-car.svg" class="main_icon_width main_icon_move"></a>
+		</div>
+		<!-- chat side -->		
+		<div id="mySidenav" class="sidenav ">
+			<a href="javascript:void(0)" class="closebtn" id="main" >&times;</a>
+			<header>
+				<h4 class="chat_title">Chat</h4>
+			    <div class="main_chat"><a class="btn-floating btn-large waves-effect waves-light green left_tool2 "><img src="../images/icons/chat.png" class="tool_icon " id="main_chat"></a></div>
+			</header>
+            <div>
+            	<ul class="w-recent-chats">
+					<li>
+						<div class="avatar">
+							<img src="../images/icons/user-3.png" alt="" class="wh-44">
+							<h6 class="w-contact-name">Usuario </h6>
+							<p class="w-last-message" id="mensaje">No se pique!!</p>
+						</div>
+					<div class="time" id="hora">14:27</div>
+					</li>
+					<li>
+						<div class="avatar">
+							<img src="../images/icons/user-3.png" alt="" class="wh-44">
+							<h6 class="w-contact-name">Usuario</h6>
+							<p class="w-last-message">La clase va bien!</p>
+						</div>
+						<div class="time">11:25</div>
+					</li>
+					<li>
+						<div class="avatar">
+							<img src="../images/icons/user-3.png" alt="" class="wh-44">
+							<h6 class="w-contact-name">Usuario</h6>
+							<p class="w-last-message">Estoy llegando</p>
+						</div>
+					<div class="time">09:25</div>
+					</li>
+					<li>
+						<div class="avatar"> 
+							<img src="../images/icons/user-3.png" alt="" class="wh-44">
+							<h6 class="w-contact-name">Usuario</h6>
+							<p class="w-last-message">¿Cómo van las chicas?</p>
+						</div>
+						<div class="time">Martes</div>
+					</li>
+				</ul>	
+            </div>
+ 		</div>
+ 		<!-- final chat -->
+ 		<footer>
+ 			<div class="bottom">
+ 		         <a class="btn-floating btn-large waves-effect waves-light green left_tool"><img src="../images/icons/joke.png" class="tool_icon"></a>
+ 		         <a class="btn-floating btn-large waves-effect waves-light green left_tool_camera"> <img src="../images/icons/camera.png" class="tool_icon"></a>
+ 		         <a class="btn-floating btn-large waves-effect waves-light green  hvr-float "><img src="../images/icons/chat.png" class="tool_icon " id="chat"></a>
+ 			</div>
+ 		</footer>
+	</div>
+<script type="text/javascript" src="../style/vendors/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../style/vendors/materialize.min.js"></script>
+<script type="text/javascript" src="../style/js/view2.js"></script>
+</body>
+</html>

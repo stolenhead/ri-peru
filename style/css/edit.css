@@ -1,0 +1,23 @@
+body{
+	overflow-x: hidden;
+	margin-left: 2%
+}
+.form-group{
+	width: 60%;
+	margin: 2%;
+}
+.form-input{
+	height: 30px !important;
+	margin-bottom: 4px !important;
+}
+.form-container{
+	margin-top: 3%;
+}
+.file{
+	color: transparent;
+	margin-left: 15%;
+}
+.put{
+	margin-left: 20%;
+	margin-top: 4%;
+}
