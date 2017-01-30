@@ -1,3 +1,7 @@
+body{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
 .fondo{
     background-image: url("../../images/vista1.jpg");
     background-size: cover;
@@ -9,7 +13,6 @@
 }
 .botonInit{
 	position: absolute;
-	bottom: 1%;
 	width: 40%;
 }
 .center-align2{
@@ -99,21 +102,29 @@ width: 10%;
     height:150px !important;
     width:80% !important;
     margin-left: 10%;
+    top: -20% !important;
     display: none;
     padding-top: 14%;
     border-radius: 6px;
 }
+.hiden{
+  display: none;
+}
 /*arrow*/
 .user_2_fondo{
-    width: 28%;
+    width: 37%;
     top: -28%;
     position: absolute;
     background-color: tomato;
-    margin-left: 36%;
+    margin-left: 34%;
     border-radius: 50%;
 }
 .btn-flat{
     width: 49%;
+}
+#location{
+  position: relative;
+  margin-left: 55%;
 }
 .modal_info_car{
     border-radius: 6px;
