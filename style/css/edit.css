@@ -3,11 +3,11 @@ body{
 	margin-left: 2%
 }
 .form-group{
-	width: 60%;
+	width: 65%;
 	margin: 2%;
 }
 .form-input{
-	height: 30px !important;
+	height: 40px !important;
 	margin-bottom: 4px !important;
 }
 .form-container{
