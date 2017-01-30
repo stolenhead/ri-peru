@@ -14,6 +14,7 @@ $(document).ready(function(){
     // $("#modal_info").click(function(){
 	$('#modal_info').modal();
     $('#modal_info_car').modal();
+    $('#modal_info_t').modal();
 	$("#main").click(closeNav);
     $("#chat").click(openNav);
 });

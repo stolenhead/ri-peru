@@ -3,7 +3,7 @@ body{
 	margin-left: 2%
 }
 .form-group{
-	width: 65%;
+	width: 90%;
 	margin: 2%;
 }
 .form-input{
@@ -15,9 +15,9 @@ body{
 }
 .file{
 	color: transparent;
-	margin-left: 15%;
+	margin-left: 28%;
 }
 .put{
-	margin-left: 20%;
+	margin-left: 35%;
 	margin-top: 4%;
 }
